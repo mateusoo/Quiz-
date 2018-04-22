@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Quiz.FlagsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Quiz"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="640" Width="640">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" HorizontalAlignment="Left" Margin="165,35,0,0" VerticalAlignment="Top" Height="200" Width="315"/>
+        <TextBlock x:Name="questionTextBlock" HorizontalAlignment="Left" Margin="85,260,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="60" Width="475" TextAlignment="Center" FontSize="18"/>
+        <Button x:Name="answer1" Content="Button" HorizontalAlignment="Left" Margin="85,350,0,0" VerticalAlignment="Top" Height="57" Width="185" Click="answer1_Click" FontSize="18" Background="#FF216EDD"/>
+        <Button x:Name="answer2" Content="Button" HorizontalAlignment="Left" Margin="85,480,0,0" VerticalAlignment="Top" Height="57" Width="185" Click="answer2_Click" FontSize="18" Background="#FF216EDD"/>
+        <Button x:Name="answer3" Content="Button" HorizontalAlignment="Left" Margin="375,350,0,0" VerticalAlignment="Top" Height="57" Width="185" Click="answer3_Click" FontSize="18" Background="#FF216EDD"/>
+        <Button x:Name="answer4" Content="Button" HorizontalAlignment="Left" Margin="375,480,0,0" VerticalAlignment="Top" Height="57" Width="185" Click="answer4_Click" FontSize="18" Background="#FF216EDD"/>
+        <Button x:Name="restartButton" Content="Jeszcze raz!" HorizontalAlignment="Left" Margin="215,412,0,0" VerticalAlignment="Top" Click="restartButton_Click" Width="220" Height="57" FontSize="18" Background="#FF216EDD"/>
+        <TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" Margin="85,85,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="145" Width="475" TextAlignment="Center" FontSize="18"/>
+        <Button x:Name="menuButton" Content="Powrót do menu" HorizontalAlignment="Left" Margin="215,480,0,0" VerticalAlignment="Top" Width="220" Height="57" Click="menuButton_Click" FontSize="18" Background="#FF216EDD"/>
+
+    </Grid>
+</Page>
